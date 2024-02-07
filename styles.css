@@ -3,6 +3,14 @@ body {
   margin: 50px;
 }
 
+header {
+  padding-bottom: 20px;
+}
+
+main {
+  padding-top: 20px;
+}
+
 h1 {
   font-size: 5rem;
 }
@@ -31,16 +39,20 @@ h3 {
   background-color: rgb(172, 167, 165);
 }
 
+.kategoriliste a:hover {
+  color: #7b7b79;
+}
+
 a {
   border-radius: 50px;
   font-size: 1.5rem;
 }
 
-.mainNav {
+/* .mainNav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
 p {
   margin-bottom: 2.5rem;
